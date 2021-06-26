@@ -1,3 +1,10 @@
 def square_array(array)
-  # your code here
+ res = []
+  array.each do |num|
+  res.push(num * num)
+  
+  end
+  return res
 end
+
+p square_array([1, 2, 3])
